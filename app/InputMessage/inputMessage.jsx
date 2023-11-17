@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import { useDebounce } from "use-debounce";
-import "./InputMessage.css";
+import "./inputMessage.css";
 
 const InputMessage = () => {
   const [message, setMessage] = useState("");
